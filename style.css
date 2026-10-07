@@ -82,3 +82,82 @@
     height:100%;
     object-fit:cover;
 }
+.login_main_box{
+    width:400px;
+    height:500px;
+    border:5px solid black;
+    border-radius: 10px;
+    background-color: #c6941f;
+    /* top:100px; */
+    /* left:500px; */
+    margin-left:400px;
+    /* position:center; */
+}
+.logo_box{
+    width:100%;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+}
+.login_logo{
+    /* fit-content:cover; */
+    width:110px;
+    height:100%;
+    /* padding:5px 50px; */
+}
+.login_main_box form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login_main_box form input{
+    width:300px;
+    height:30px;
+    margin:10px 0px;
+    border-radius: 5px;
+    border:none;
+    padding:5px 10px;
+    font-size: 20px;
+}
+.catlog_box{
+    border:2px solid black;
+}
+.book_box{
+    display: flex;
+    border:2px solid black;
+    height:200px;
+    gap:50px;
+    justify-content: space-between;
+    margin:20px 20px;
+}
+.book_img{
+    object-fit: cover;
+    width:240px;
+    height:100%;
+    
+}
+.book_img img{
+    /* width:250px; */
+    width:100%;
+    height:100%;
+}
+.cart_box{
+    width:200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart_box button{
+    width:180px;
+    height:30px;
+    background-color: #7aba27;
+    border:none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
